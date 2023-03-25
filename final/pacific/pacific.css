@@ -207,17 +207,6 @@ video {
   width: 100%;
 }
 
-#gridbox {
-  display: grid;
-  column-gap: 10px;
-  grid-template-columns: 1fr 1fr auto;
-}
-
-#welcome {
-  font-size: 18px;
-  padding-top: 7px;
-}
-
 #toReservations {
   margin-top: 30px;
 }
@@ -312,6 +301,12 @@ video {
     display: flex;
     flex-wrap: nowrap;
   }
+  #welcome {
+    font-size: 16px;
+  }
+  #goodbye {
+    display: none;
+  }
 }
 
 @media (min-width: 600px) {
@@ -345,6 +340,17 @@ video {
   }
   #gallery {
     grid-template-columns: repeat(2, 1fr);
+  }
+  #gridbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #welcome {
+    font-size: 18px;
+    padding-top: 7px;
+  }
+  #phonecontact {
+    display: none;
   }
 }
 
@@ -404,5 +410,10 @@ video {
     #gallery {
       grid-template-columns: repeat(3, 1fr);
     }
+  }
+  #gridbox {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr auto;
   }
 }
