@@ -227,11 +227,14 @@ video {
   background-image: linear-gradient(to bottom right, #fff, #90c7e3);
   border: 2px solid #000032;
   border-radius: 5px;
-  color: #1976d2;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 24px;
   padding: 11px;
   text-decoration: none;
+}
+
+#reserve a {
+  color: #1976d2;
 }
 
 #reserve:hover {
