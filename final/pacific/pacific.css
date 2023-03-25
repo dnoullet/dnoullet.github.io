@@ -233,7 +233,8 @@ video {
   text-decoration: none;
 }
 
-#reserve a {
+#reserve:link,
+#reserve:visited {
   color: #1976d2;
 }
 
